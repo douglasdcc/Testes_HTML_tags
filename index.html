@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/Logo_DCC3.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>HTML TAGs</title>
+</head>
+<body>
+    <section id="navbar">
+        <nav class="navbar is-fixed-top has-background-info-85" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand px-2 pt-2">
+                <a class="" href="https://bio.link/douglasdcc">
+                    <img src="images/Logo_DCC3.png" width="112" height="64">
+                </a>
+                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+                <div class="navbar-menu" id="navMenu">
+                </div>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="#home" class="navbar-item">Home</a>
+                    <a href="#about" class="navbar-item">About</a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">More</a>
+                        <div class="navbar-dropdown">
+                            <a href="https://bio.link/douglasdcc" target="_blank" class="navbar-item"><i class="fas fa-address-book m-2"></i>Contact</a>
+                            <hr class="navbar-divider">
+                            <a href="#" target="_blank" class="navbar-item"><i class="fab fa-github m-2"></i>Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-info"><strong>Sign up</strong></a>
+                            <a class="button is-warning">Log in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="home" class="hero is-medium has-background-info-85">
+        <div class="hero-body has-text-centered">
+          <p class="title">
+            HTML TAGs using BulmaCSS
+          </p>
+          <p class="subtitle">
+            Small project to demonstrate some not well known HTML TAGs using Bulma CSS.
+          </p>
+        </div>
+    </section>
+
+    <section id="about" class="hero is-small py-4 px-4">
+        <div class="hero-body">
+          <p class="title" style="color: black;">
+            About
+          </p>
+          <p class="subtitle">
+            This project was developed as a study case and demonstration of technology.
+          </p>
+        </div>
+    </section>
+
+    <section id="website-content" class="is-justify-content-center is-flex has-background-light">
+        <div class="content-wrapper column is-6 py-6 px-4">
+
+            <div class="card cardy has-background-info-85">
+                <div class="card-content">
+                  <div class="content">
+                    <legend>Auto Complete</legend>
+                    <h2>Please Select a Vehicle:</h2>
+
+                    <input type="text" list="auto-complete">
+                    <datalist id="auto-complete">
+                        <option value="Airplane"></option>
+                        <option value="Cars"></option>
+                        <option value="Motorcycle"></option>
+                        <option value="Bikes"></option>
+                        <option value="Taxi"></option>
+                        <option value="Bus"></option>
+                        <option value="Van"></option>
+                    </datalist>
+                  </div>
+                </div>
+            </div>
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                  <div class="content">
+                    <legend>File selector</legend>
+                    <h2>Please Select a File:</h2>
+                    <input type="file" accept=".png, .jpg">
+                  </div>
+                </div>
+            </div>
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                  <div class="content">
+                    <legend>Details section</legend>
+                    <h2>Please Select a Detail:</h2>
+                    <details>
+                        <summary id="global-summary">More</summary>
+                        <p class="has-text-justified py-1 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum eos porro quam quis eum vero excepturi fugiat at! Amet praesentium voluptatum quae quo maxime temporibus molestias id ea omnis! Fuga, eos odio quo nesciunt dolorem, sequi
+                            obcaecati harum quibusdam cupiditate perferendis neque alias. Accusamus porro voluptas libero, iusto atque autem dolore commodi impedit consectetur nulla eum dolorem labore possimus. Commodi, odit at. Sed mollitia iure minus consequatur fuga
+                            architecto eos obcaecati dignissimos minima quis, fugit ipsa repudiandae id hic inventore repellat libero delectus culpa cum consectetur itaque molestiae quia. Doloribus repellendus saepe voluptatibus impedit facere. Non, suscipit quia voluptatem
+                            dolore magnam nemo repellendus assumenda, laudantium perspiciatis animi optio velit eveniet quam provident! Architecto reiciendis tempore assumenda minima necessitatibus obcaecati. Quo tenetur assumenda sit modi eaque velit ducimus quaerat
+                            nam. Deleniiusto, placeat ad neque eius! Fuga, quo dignissimos nihil repudiandae perspiciatis inventore amet veniam deserunt dolores tenetur.
+                        </p>
+                    </details>
+                  </div>
+                </div>
+            </div>
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                    <div class="content">
+                        <legend>Optgroup section</legend>
+                        <h2>Please Select a Car:</h2>
+                        <select name="cars" id="cars">
+                            <optgroup label="Swedish Cars">
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                            </optgroup>
+                            <optgroup label="German Cars">
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </optgroup>
+                            <optgroup label="Italian Cars">
+                                <option value="ferrari">Ferrari</option>
+                                <option value="maserati">Maserati</option>
+                                <option value="alpharomeo">Alpha Romeo</option>
+                            </optgroup>
+                            <optgroup label="French Cars">
+                                <option value="pegeout">Pegeout</option>
+                                <option value="renault">Renault</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                  <div class="content">
+                    <legend>ABBR section</legend>
+                    <h2>ABBR:</h2>
+                    <p>The World Chess Federation <abbr title="Fédération Internationale des Échecs">FIDE</abbr>
+                        was founded in Paris, France, on July 20, 1924.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                  <div class="content">
+                    <legend>Meter section</legend>
+                    <h2>Meter bar:</h2>
+                    <meter min="0" max="100" low="30" high="75" optimum="80" value="25"></meter>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                  <div class="content">
+                    <legend>Sub and Sup section</legend>
+                    <h2>Formula:</h2>
+                    &#x1D465;<sup>3</sup> - 4&#x1D465;<sup>2</sup> + 3&#x1D465; - 8 = 0. Solve for &#x1D465;. <br />
+                    <br />
+                    H<sub>2</sub>SO<sub>4</sub> + NaOH &#8594; Na<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O
+                  </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                    <div class="content">
+                        <legend>Dialog section</legend>
+                        <h2>Dialog box:</h2>
+                        <button class="button" onclick="document.getElementById('myDialog').showModal()">Open Dialog</button>
+                        <dialog id="myDialog">
+                            <p>This is a dialog box.</p>
+                            <form method="dialog">
+                                <button class="button">Close</button>
+                            </form>
+                        </dialog>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                  <div class="content">
+                    <legend>Bi-directional override</legend>
+                    <h2>BDO:</h2>
+                    <bdo dir="rtl">This text will be written from right to left.</bdo>
+                  </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                    <div class="content">
+                        <legend>Keyboard Input</legend>
+                        <h2>KBD:</h2>
+                        <p>To save your document, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                    <div class="content">
+                        <legend>Citation</legend>
+                        <h2>CITE:</h2>
+                        <p>One of my favorite books is <cite>To Kill a Mockingbird</cite> by Harper Lee.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                    <div class="content">
+                        <legend>Quotation</legend>
+                        <h2>Q:</h2>
+                        <p>As Albert Einstein once said, <q>Life is like riding a bicycle. To keep your balance, you must keep moving.</q></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                    <div class="content">
+                        <legend>Strikethrough</legend>
+                        <h2>S:</h2>
+                        <p>This is <s>incorrect</s> correct text.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card has-background-info-85">
+                <div class="card-content">
+                    <div class="content">
+                        <legend>Highlight</legend>
+                        <h2>MARK:</h2>
+                        <p>This is a <mark>highlighted</mark> text.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="hero has-background-info-85 py-6 px-4">
+        <div class="content has-text-centered">
+            <p>
+                <strong>HTML TAGs using BulmaCSS</strong> by <a href="https://bio.link/douglasdcc">Douglas Cunha</a>. The source code is licensed by
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a> license.
+            </p>
+            <a href="https://bio.link/douglasdcc"><span class="icon has-text-white"><i class="fa fa-globe"></i></span></a>
+            <a href="https://www.linkedin.com/in/douglas-collar-da-cunha-1185904a/"><span class="icon has-text-white"><i class="fab fa-linkedin-in"></i></span></a>
+            <a href="https://github.com/douglasdcc"><span class="icon has-text-white"><i class="fab fa-github"></i></span></a>
+            <a href="https://bulma.io/" target="_blank">
+                <figure class="mt-2" class="is-128by24">
+                    <img src="images/bulmaui.png" width="128" height="24">
+                </figure>
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function() {
+            $(".navbar-burger").click(function() {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            });
+        });
+    </script>
+</body>
+</html>

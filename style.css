@@ -1,0 +1,56 @@
+:root{
+    --color-yellow: #ffe08a;
+    --color-cyan: cyan;
+    --color-blue: #3e8ed0;
+    --color-red: #FF0000;
+}
+
+a, p {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+summary{
+    width: fit-content;
+}
+
+summary:hover{
+    cursor: pointer;
+}
+
+summary::marker{
+    color: var(--color-blue);
+}
+
+fieldset {
+    margin:0;
+    padding:0;
+    border: 1px solid var(--color-red);
+}
+
+.card {
+    transition: 0.6s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    }
+    & .button:hover {
+        cursor: pointer;
+    }
+}
+
+abbr {
+    cursor: help;
+}
+
+footer, footer a, footer strong {
+    color: inherit !important;
+}
+
+.navbar-item:hover, .navbar-link:hover {
+    background-color: inherit !important;
+}
+
+footer a:hover, footer .icon:hover {
+    color: var(--color-blue) !important;
+}
